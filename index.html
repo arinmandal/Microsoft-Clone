@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Microsoft – Cloud, Computers, Apps & Gaming</title>
+  <link rel="icon" href="./Assets/favicon.jpg" />
+  <link rel="stylesheet" href="style.css" />
+  <!-- font-awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Flickity -->
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+</head>
+
+<body>
+  <header>
+    <nav class="nav-bar">
+      <div class="logo">
+        <img src="./Assets/Logo.png" alt="" />
+      </div>
+      <div class="nav-link">
+        <ul>
+          <li><a>Microsoft 365</a></li>
+          <li><a>Teams</a></li>
+          <li><a>Windows</a></li>
+          <li><a>Surface</a></li>
+          <li><a>Xbox</a></li>
+          <li><a>Support</a></li>
+        </ul>
+      </div>
+
+      <div class="nav-last">
+        <button id="nav-button" class="nav-button" onclick="toggleDiv()">
+          <span>All Microsoft</span><i class="fa-solid fa-angle-down"></i>
+          <div id="toggleDiv">
+            <div class="navToggleDiv">
+              <ul>
+                <p>Software</p>
+                <li>Windows Apps</li>
+                <li>AI</li>
+                <li>One Drive</li>
+                <li>Outlook</li>
+                <li>Skype</li>
+                <li>OneNote</li>
+                <li>Microsoft Teams</li>
+              </ul>
+              <ul>
+                <p>PCs & Devices</p>
+                <li>Shop Xbox</li>
+                <li>Accessories</li>
+              </ul>
+              <ul>
+                <p>Entertainment</p>
+                <li>Xbox Game Pass Ultimate</li>
+                <li>Xbox Live Gold</li>
+                <li>Xbox games</li>
+                <li>Pc games</li>
+                <li>Windows digital games</li>
+              </ul>
+              <ul>
+                <p>Business</p>
+                <li>Microsoft Cloud</li>
+                <li>Microsoft Security</li>
+                <li>Azure</li>
+                <li>Dynamics 365</li>
+                <li>Microsoft 365 for business</li>
+                <li>Microsoft Industry</li>
+                <li>Microsoft Power Platform</li>
+                <li>Windows 365</li>
+              </ul>
+              <ul>
+                <p>Developer & IT</p>
+                <li>Develope Center</li>
+                <li>Documentation</li>
+                <li>Microsoft Learn</li>
+                <li>Microsoft Tech Community</li>
+                <li>Azure Marketplace</li>
+                <li>AppSource</li>
+                <li>Visual Studio</li>
+              </ul>
+            </div>
+          </div>
+        </button>
+        <div class="search-btn">
+          <i class="fa-solid fa-magnifying-glass fa-rotate-90"></i>
+          <div class="search-hide">Search microsoft.com</div>
+        </div>
+        <div class="cart">
+          <i class="fa-sharp fa-solid fa-cart-shopping cart-icon"></i>
+          <div class="cart-hide">0 items in shopping cart</div>
+        </div>
+        <div class="sign-avater">
+          <i class="fa-solid fa-user-plus"></i>
+          <div class="sign-in">Sign in to your account</div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="carousel" data-flickity='{ "autoPlay": true }'>
+      <article class="hero-section carousel-cell">
+        <div class="hero-image">
+          <img src="./Assets/Highlight-Surface-Pro-9-M1-Family-02-1_VP2-859x540.webp" alt="" />
+        </div>
+        <div class="hero-card">
+          <h1>Surface Pro 9</h1>
+          <div class="hero-description">
+            Tablet versatility and laptop power — all in one ultra-portable
+            device.
+          </div>
+          <div class="hero-primary-button">
+            <button>Learn More</button>
+          </div>
+        </div>
+      </article>
+      <article class="hero-section2 carousel-cell">
+        <div class="hero-card2">
+          <h1>Microsoft 365</h1>
+          <div class="hero-description2">
+            Turn your ideas into reality, stay safer online and off, and focus
+            on what matters most with Microsoft 365 apps
+          </div>
+          <div class="hero-primary-button2">
+            <button class="one">For one person</button>
+            <button class="six">for upto six people <span>
+                <i class="fa-solid fa-angle-down fa-rotate-270"></i></span></button>
+          </div>
+        </div>
+        <div class="hero-image2">
+          <img src="./Assets/Highlight-M365-Icon-Bounce-Word-Merch_VP2-859x540.webp" alt="" />
+        </div>
+      </article>
+    </div>
+    <article>
+      <div class="more-content">
+        <div class="explore-more">
+          <ul>
+            <li>
+              <img src="./Assets/icon-LL-Windows-Logo-80x80.webp" alt="" />
+              <a href="">Choose your microsoft 365</a>
+            </li>
+            <li>
+              <img src="./Assets/icon-LL-Tablet-Kickstand-Landscape-Mode-Fluent-80x80.webp" alt="" />
+              <a href="">Explore surface devices</a>
+            </li>
+            <li>
+              <img src="./Assets/icon-LL-Xbox-Logo-80x80.webp" />
+              <a href="">Buy Xbox games</a>
+            </li>
+            <li>
+              <img src="./Assets/icon-LL-Windows-Logo-80x80.webp" />
+              <a href="">Get Windows 11</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </article>
+    <article>
+      <div class="more-product">
+        <div class="product-card">
+          <img src="./Assets/Content-Card-Surface-Laptop-5-M1-Platinum-01-1.webp" alt="" />
+          <div class="product-card-body">
+            <h2>Surface Laptop 5</h2>
+            <p>
+              Sophisticated style and multitasking speed powered by 12th Gen
+              Intel® Core, with Windows 11.
+            </p>
+          </div>
+          <div class="link-group"><a href="">Learn More</a></div>
+        </div>
+        <div class="product-card">
+          <img src="./Assets/gldn-XSS-CP-Xbox-Series-S-Evergreen.jpg" alt="" />
+          <div class="product-card-body">
+            <h2>Xbox Series S</h2>
+            <p>Next-gen performance in the smallest Xbox ever.</p>
+          </div>
+          <div class="link-group"><a href="">Shop Xbox Series S</a></div>
+        </div>
+        <div class="product-card">
+          <img src="./Assets/Content-Card-Bing-AI-Open-Preview.webp" alt="" />
+          <div class="product-card-body">
+            <h2>Announcing the next wave of AI innovation</h2>
+            <p>
+              The new Microsoft Bing and Edge will soon feature more visual
+              search responses, chat history, and persistent chat within Edge.
+              We’re also adding actions to help people complete tasks.
+            </p>
+          </div>
+          <div class="link-group"><a href=""> learn more about it </a></div>
+        </div>
+        <div class="product-card">
+          <img src="./Assets/Content-Card-Surface-Laptop-5-M1-Platinum-01-1.webp" alt="" />
+          <div class="product-card-body">
+            <h2>Xbox Game Pass Ultimate</h2>
+            <p>
+              Xbox Live Gold and hundreds of high-quality console and PC
+              games. Play together with friends and discover your next
+              favorite game.
+            </p>
+          </div>
+          <div class="link-group"><a href="">Join Now</a></div>
+        </div>
+      </div>
+    </article>
+    <article>
+      <div class="diagonist-pc">
+        <div class="hero-image3">
+          <!-- <img src="./Assets/Highlight-Hero-Windows11-GlobalLaunch_VP2-859x540.webp" alt="" /> -->
+          <div class="hero-card3">
+            <h1>Designed for life today – and tomorrow</h1>
+            <div class="hero-description3">
+              The next generation of games.Your goals.Friends and family.Windows
+              11 was made to bring you closer to everything you love
+            </div>
+            <div class="hero-primary-button3">
+              <button class="one">See if your PC is ready</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article>
+      <div class="more-product">
+        <div class="product-card">
+          <img src="./Assets/gldn-Surf-CP-SurfaceFamilyForBusiness.webp" alt="" />
+          <div class="product-card-body">
+            <h2>Surface for Business</h2>
+            <p>No matter what you do, there's a Surface to help you do it.</p>
+          </div>
+          <div class="link-group"><a href="">Shop Now</a></div>
+        </div>
+        <div class="product-card">
+          <img src="./Assets/gldn-CP-Microsoft-Teams-Commercial.webp" alt="" />
+          <div class="product-card-body">
+            <h2>Get Microsoft business for free</h2>
+            <p>
+              Online meetings, chat and shared cloud storage - all in one
+              place.
+            </p>
+          </div>
+          <div class="link-group"><a href="">Sign Up for free</a></div>
+        </div>
+        <div class="product-card">
+          <img src="./Assets/Content-Card-Windows-11-Business.jpg" alt="" />
+          <div class="product-card-body">
+            <h2>Windows 11 for business</h2>
+            <p>
+              Designed for hybrid work. powerful for employees.Consistent for
+              IT Secure for all.
+            </p>
+          </div>
+          <div class="link-group"><a href=""> learn more </a></div>
+        </div>
+        <div class="product-card">
+          <img src="./Assets/Content-Card-Microsoft-365-For-Business-Woman-Teams-Call.webp" alt="" />
+          <div class="product-card-body">
+            <h2>Try Microsoft 365 for free</h2>
+            <p>
+              Get Microsoft teams, secure cloud storage and premium app
+              across devices with a free one-month Microsoft 365 Business
+              Standard Trail.
+            </p>
+          </div>
+          <div class="link-group"><a href="">Start your free trail</a></div>
+        </div>
+      </div>
+    </article>
+    <section class="social-follow-div">
+      <div class="social-follow">
+        <div class="social-follow-heading">
+          <h1>Follow Microsoft</h1>
+        </div>
+
+        <ul>
+          <li><img src="Assets/Follow icon/facebook-app-symbol.png" alt=""></li>
+          <li><img src="Assets/Follow icon/twitter.png"></li>
+          <li><img src="Assets/Follow icon/youtube.png"></li>
+        </ul>
+      </div>
+    </section>
+    <section>
+      <div class="backButton">
+        <div class="back-to-top">
+          <button id="back" class="back-to-top-btn">
+            <a href="">Back to top</a>
+          </button>
+        </div>
+      </div>
+
+    </section>
+  </main>
+  <footer>
+    <div class="footer-content">
+      <ul>
+        <p>What's new</p>
+        <li>Microsoft 365</li>
+        <li>Games</li>
+        <li>Surface Pro 9</li>
+        <li>Surface Laptop 5</li>
+        <li>Surface Laptop Studio</li>
+        <li>Surface Laptop Go 2</li>
+        <li>Windows 11 apps</li>
+      </ul>
+      <ul>
+        <p>Microsoft Store</p>
+        <li>Account profile</li>
+        <li>Download Center</li>
+        <li>Microsoft Store Support</li>
+        <li>Returns</li>
+        <li>Order tracking</li>
+      </ul>
+      <ul>
+        <p>Education</p>
+        <li>Microsoft in education</li>
+        <li>Devices for education</li>
+        <li>Microsoft Teams for Education</li>
+        <li>Microsoft 365 Education</li>
+        <li>Office Education</li>
+        <li>Educator training and development</li>
+        <li>Deals for students and parents</li>
+        <li>Azure for students</li>
+      </ul>
+      <ul>
+        <p>Business</p>
+        <li>Microsoft Cloud</li>
+        <li>Microsoft Security</li>
+        <li>Azure</li>
+        <li>Dynamics 365</li>
+        <li>Microsoft 365 for business</li>
+        <li>Microsoft Industry</li>
+        <li>Microsoft Power Platform</li>
+        <li>Windows 365</li>
+      </ul>
+      <ul>
+        <p>Developer & IT</p>
+        <li>Develope Center</li>
+        <li>Documentation</li>
+        <li>Microsoft Learn</li>
+        <li>Microsoft Tech Community</li>
+        <li>Azure Marketplace</li>
+        <li>AppSource</li>
+        <li>Visual Studio</li>
+      </ul>
+      <ul>
+        <p>Company</p>
+        <li>Careers</li>
+        <li>About Microsoft</li>
+        <li>Company news</li>
+        <li>Privacy at Microsoft</li>
+        <li>Investors</li>
+        <li>Security</li>
+        <li>Sustainability</li>
+      </ul>
+    </div>
+    </div>
+    <section>
+      <div class="copywrite">
+        <div class="language">
+
+          <span><i class="fa-solid fa-globe"></i></span>
+          <a href="">English(India)</a>
+        </div>
+        <div class="the-last-div">
+          <ul>
+            <li>Contact Microsoft</li>
+            <li>Privacy</li>
+            <li>Teams of use</li>
+            <li>About our ads</li>
+            <li>© Designed clone by <span>Arin Mandal</span></li>
+          </ul>
+        </div>
+
+    </section>
+
+  </footer>
+  <script src="script.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+</body>
+
+</html>
