@@ -289,6 +289,8 @@ button {
   padding: 0rem 4.21rem;
 }
 .hero-image3 {
+  color: #fff;
+  font-size: 16px;
   width: 100%;
   height: 100%;
   margin: 0;
@@ -311,9 +313,8 @@ button {
   margin: 0px 0px 16px;
 }
 .hero-description3 {
-  color: #000000;
   margin: 0px 0px 24px;
-  font-size: 1rem;
+  font-weight: 400;
 }
 .hero-primary-button3 .one {
   border: none;
@@ -497,4 +498,7 @@ button {
   background-color: #7c96ab;
   padding: 4px;
   color: #fff;
+}
+.the-last-div span:hover{
+  cursor: pointer;
 }
