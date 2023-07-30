@@ -5,5 +5,3 @@
 #### Carousel- Flickity
 
 ## Project Preview 👨‍💻
-
-<video src="giphy.mp4" controls title="Title"></video>
