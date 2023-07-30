@@ -6,4 +6,4 @@
 
 ## Project Preview 👨‍💻
 
-<video src="petal_20230709_200550.mp4" controls title="Title"></video>
+<video src="giphy.mp4" controls title="Title"></video>
