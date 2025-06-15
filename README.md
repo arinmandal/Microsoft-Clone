@@ -3,7 +3,8 @@
 A UI clone of the Microsoft Website built using HTML, CSS, and JavaScript.
 
 🎯 Key Features
-Desktop-only layout (not responsive)
+
+- Desktop-only layout (not responsive)
 - Carousel implemented with Flickity
 - Clean and structured code mimicking Microsoft’s visual style
 
@@ -18,4 +19,3 @@ Desktop-only layout (not responsive)
 [Microsoft-Website-Replica](https://ms-replica-website.netlify.app/)
 
 </> [Source code](https://github.com/arinmandal/Microsoft-Clone)
-
