@@ -1,10 +1,21 @@
-# Microsoft Website UI Clone
+## 💻 Microsoft Website UI Clone
 
-#### Using HTML CSS And JavaScript
+A UI clone of the Microsoft Website built using HTML, CSS, and JavaScript.
 
-#### Carousel- Flickity
+🎯 Key Features
+Desktop-only layout (not responsive)
+- Carousel implemented with Flickity
+- Clean and structured code mimicking Microsoft’s visual style
 
-## Project Preview 👨‍💻
+🛠️ Tech Stack
 
-https://github.com/arinmandal/Microsoft-Clone/assets/54814983/6129a9f7-604e-4a03-94e5-f3b6681dba5e
+- HTML5
+- CSS3
+- JavaScript
+- Flickity for the carousel
+
+🌐 Live Demo
+[Microsoft-Website-Replica](https://ms-replica-website.netlify.app/)
+
+</> [Source code](https://github.com/arinmandal/Microsoft-Clone)
 
